@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+Disallow: /testimonial/
+Disallow: /get-a-quote/
+Disallow: /terms-and-condition/
+Disallow: /privacy-policy/
+User-agent: bingbot
+Allow: /
+
+Sitemap: https://designprosusa.com/sitemap.xml

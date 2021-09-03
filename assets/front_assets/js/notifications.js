@@ -1,0 +1,1 @@
+function demoNotifications(o,t,i,e){toastr[o](i,t);toastr.options={closeButton:e.closeButton,debug:e.debug,positionClass:e.positionClass,onclick:e.onclick,showDuration:e.showDuration,hideDuration:e.hideDuration,timeOut:e.timeOut,extendedTimeOut:e.extendedTimeOut,showEasing:e.showEasing,hideEasing:e.hideEasing,showMethod:e.showMethod,hideMethod:e.hideMethod}}

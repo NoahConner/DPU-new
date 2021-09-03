@@ -1,0 +1,281 @@
+/* My Account area end */
+.services_slider .slick-list a{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 400;
+    color: #5e5e5e;
+    line-height: 28px;
+}
+
+/*.content-page {margin: 50px;}*/
+.content-page h3{margin-bottom: 34px;}
+
+
+.inner_box {
+    padding: 45px 0px 40px 0px;
+    transition: all .3s ease-in-out;
+    background: #f0f0f0;
+    border: 1px solid #3333330a;
+}
+.inner_box img {
+    display: block;
+    margin: 0 auto 20px;
+}
+.style_div h4 {
+    position: relative;
+    color: #545454;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    padding-top: 8px;
+}
+.inner_box:hover h4, .inner_box:hover p, .inner_box:hover .text-muted {
+    color: #fff;
+}
+.inner_box:hover .hide {
+    display: block !important;
+}
+.inner_box:hover .hvr_none {
+    display: none !important;
+}
+.inner_box .box {
+    text-align: center;
+    margin: 0 auto;
+    font-size: 40px;
+}
+.myaccount-sidebar ul>li.active a {
+    color: white;
+}
+
+section.accountSec {
+    margin: 28px;
+}
+
+.accountSec{
+    margin-top: 50px;
+}
+
+.myaccount-sidebar .active {
+    color: #ffffff;
+    background-color: #000;
+    border-color: transparent;
+    font-weight: bold;
+}
+.myaccount-sidebar li > a{color: black}
+
+.main_heading.heading_two.text-center {
+    color: white;
+}
+.desktopGrid .col-sm-4{
+    background-color:red;
+}
+
+/* My Account area end */
+
+
+/* Wahaj  */
+
+
+.WapplastSection {
+    background-color: #ff0000;
+    color: white;
+    font-size: 34px;
+}
+
+/* .primary-btn.green-btn {
+    padding: 10px;
+    background-color: white;
+    color: #de2224;
+} */
+
+.Wapplast {
+    margin-top: -25px;
+    margin-bottom: 0px;
+}
+
+.WappHeading {
+    font-size: 50px;
+}
+.WappIosPara {
+    font-size: 36px;
+    font-weight: 600;
+    color: #de2224;
+}
+
+.WappSaperator {
+    bottom : 76px;
+}
+
+.WappheadingBox {
+    margin-left: 20px;
+}
+
+.WappBannerimg {
+    top: -44%;
+    width: 47%;
+}
+
+.WappBannerImage0 .flexBOxC .txt h1:nth-child(1) {
+    font-size: 4em !important;
+}
+.WappBannerImage0 .flexBOxC .txt h1:nth-child(2) {
+    font-size: 3em !important;
+}
+.WappBannerImage0 .flexBOxC .txt h1:nth-child(3) {
+    font-size: 8em !important;
+}
+
+.ecomm h6 {
+    color: #d52123;
+    font-size: 24px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.colorBlack, 
+.colorBlack p {
+    color: #000;
+}
+
+
+/* .dgrid {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+} */
+/* .dgrid > *+* {
+    margin-left: 5rem;
+} */
+
+.dItem {
+    /* width: 190px;
+    height: 165px; */
+    box-shadow: 0px 1px 17px -7px #000000bf;
+    /* padding: 8px 5px 30px 5px; */
+    border-radius: 15px;
+    /* padding: 35px 35px; */
+    height: fit-content;
+    height: 200px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.dItem img{
+    height: 70px;width: 50%;
+}
+.arrJus{
+    justify-content:space-around;
+}
+.dItem h5 {
+    font-size: 16px;
+    font-weight: 800;
+    /* padding-top: 12px; */
+    margin: 1.5rem 0 0 0 ;
+}
+
+.dcol {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.ecomm h5 {
+    
+    font-weight: bold;
+}
+
+.mvpsec3 ul > li {
+    font-weight: bold;
+}
+
+.digitalMSection4  h4 {
+    font-weight: bold;
+    color: #0e166e;
+    font-size: 35px;
+}
+
+.digitalMSection3 h5 {
+    color: red !important;
+    font-weight: bold !important;
+}
+
+.digiMarketingSec2 h2 {
+    color: #0e166e;
+    font-weight: bold;
+}
+
+.digitalPropSec h5 {
+    color: #d52123;
+    margin-top: 5px;
+}
+
+.digitalPropSec2 h5 {
+    color: #d52123;
+    margin-top: 5px;
+}
+@media screen and (max-width: 414px) {
+    .graphicDes.Comp.WappBannerImage0 .WappBannerimg{
+        width: 62% !important;
+    }
+}
+
+@media screen and (max-width: 540px){
+    .Wappcontent {
+        font-size: 3rem;
+    }    
+}
+
+
+
+@media screen and (max-width: 1024px){
+    .WappHeading {
+            font-size: 45px;
+        }
+    .WappCardSection {
+            margin-bottom: 0px;
+        }
+    .WappBannerImage0 .graphicDes.Comp .flexBOxC figure {
+            top: -13%
+    }
+}
+
+@media screen and (max-width: 768px){
+    .graphicDes.Comp.WappBannerImage0 .WappBannerimg {
+        width: 48% !important;
+        top: 0% !important;
+    }
+   .WappBannerImage0 .flexBOxC figure {
+        top: -140px
+   }
+   .dbtu{
+       flex-wrap: wrap;
+       justify-content:space-around !important
+   }
+   .dItem {
+    height: 220px;
+    width: 247px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .Wapplast {
+    margin-top: -61px;
+    margin-bottom: 29px;
+    }
+    .graphicDes.Comp.WappBanner .flexBOxC figure {
+        width: 60% !important;
+        top: 17rem !important;
+    }
+}
+@media screen and (max-width: 540px){
+.graphicDes.Comp.WappBannerImage0 .flexBOxC figure {
+    top: 18rem !important;
+}
+.dItem {
+    height: 220px;
+    width: 220px;
+}
+}
