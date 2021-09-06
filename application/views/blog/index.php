@@ -178,7 +178,7 @@
                 <div class="mainListing">
 
                   <div class="imgCon">
-                 <a href="<?=g('base_url')?>blog/ionic-vs-react-native"> <img src="<?=g('images_root')?>1x/react-native-vs-ionic.jpg" alt="react native vs ionic"> </a>
+                 <a href="<?=g('base_url')?>blog/create-a-social-media-app"> <img src="<?=g('images_root')?>1x/mark-main.jpg" alt="react native vs ionic"> </a>
                 </div>
 
                 <div class="texCon">
