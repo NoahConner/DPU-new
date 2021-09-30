@@ -169,3 +169,11 @@ $route['translate_uri_dashes'] = true;
 
 
 //$route['detail/(:any)'] = "Adshare/detail/$1";
+
+
+// Case studies
+
+$route['ctc_case'] = "case_studies/ctc-case";
+$route['frog_case'] = "case_studies/frog-case";
+$route['national_db_case'] = "case_studies/national-db-case";
+$route['phase_dev_case'] = "case_studies/phase-dev-case";
