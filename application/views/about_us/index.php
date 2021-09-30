@@ -88,27 +88,27 @@
           <div class="clients-slider owl-theme owl-carousel">
              <div class="item">
               <figure>
-                <img src="<?=g('images_root')?>client-1.png" alt="CEU" height="" width="">
+                <img src="<?=g('images_root')?>client-1.png" alt="CEU">
               </figure>
             </div>
             <div class="item">
               <figure>
-                <img src="<?=g('images_root')?>client-2.png" alt="CEU" height="" width="">
+                <img src="<?=g('images_root')?>client-2.png" alt="CEU">
               </figure>
             </div>
             <div class="item">
               <figure>
-                <img src="<?=g('images_root')?>client-3.png" alt="CEU" height="" width="">
+                <img src="<?=g('images_root')?>client-3.png" alt="CEU">
               </figure>
             </div>
             <div class="item">
               <figure>
-                <img src="<?=g('images_root')?>client-4.png" alt="CEU" height="" width="">
+                <img src="<?=g('images_root')?>client-4.png" alt="CEU">
               </figure>
             </div>
             <div class="item">
               <figure>
-                <img src="<?=g('images_root')?>client-5.png" alt="CEU" height="" width="">
+                <img src="<?=g('images_root')?>client-5.png" alt="CEU">
               </figure>
             </div> 
 
@@ -130,17 +130,17 @@
           <ul class="country-lst">
             <li>
               <figure>
-                <img src="<?=g('images_root')?>clientele-1.png" alt="Country" height="" width="">
+                <img src="<?=g('images_root')?>clientele-1.png" alt="Country">
               </figure>
             </li>
             <li>
               <figure>
-                <img src="<?=g('images_root')?>clientele-2.png" alt="Country" height="" width="">
+                <img src="<?=g('images_root')?>clientele-2.png" alt="Country">
               </figure>
             </li>
             <li>
               <figure>
-                <img src="<?=g('images_root')?>clientele-3.png" alt="Country" height="" width="">
+                <img src="<?=g('images_root')?>clientele-3.png" alt="Country">
               </figure>
             </li>
           </ul>

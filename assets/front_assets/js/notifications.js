@@ -1,1 +1,19 @@
-function demoNotifications(o,t,i,e){toastr[o](i,t);toastr.options={closeButton:e.closeButton,debug:e.debug,positionClass:e.positionClass,onclick:e.onclick,showDuration:e.showDuration,hideDuration:e.hideDuration,timeOut:e.timeOut,extendedTimeOut:e.extendedTimeOut,showEasing:e.showEasing,hideEasing:e.hideEasing,showMethod:e.showMethod,hideMethod:e.hideMethod}}
+function demoNotifications(notification,title,msg,$toastr_options) {
+
+  var $toast = toastr[notification](msg, title);
+  
+  toastr.options = {
+    "closeButton"     : $toastr_options['closeButton'],
+    "debug"           : $toastr_options['debug'],
+    "positionClass"   : $toastr_options['positionClass'],
+    "onclick"         : $toastr_options['onclick'],
+    "showDuration"    : $toastr_options['showDuration'],
+    "hideDuration"    : $toastr_options['hideDuration'],
+    "timeOut"         : $toastr_options['timeOut'],
+    "extendedTimeOut" : $toastr_options['extendedTimeOut'],
+    "showEasing"      : $toastr_options['showEasing'],
+    "hideEasing"      : $toastr_options['hideEasing'],
+    "showMethod"      : $toastr_options['showMethod'],
+    "hideMethod"      : $toastr_options['hideMethod']
+  }
+}

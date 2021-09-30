@@ -23,10 +23,12 @@ class Home extends MY_Controller {
         $this->layout_data['title'] = 'Design Pros USA Custom Web Design and Development Agency';
         $this->layout_data['meta_data']['keywords'] = '';
         $this->layout_data['meta_data']['description'] = 'Design Pros USA, the USA-based Web Design Agency that specializes in design and development services for all businesses. Our professionals develop custom digital products.';
+        $this->layout_data['og_data']['og:image'] = 'https://designprosusa.com/assets/front_assets/images/home-video.png';
+        
         $data['banner'] = $this->model_banner->find_all_active();
         // Get Home page products
         //$data['feature_products'] = $this->model_product->get_feature_products();
-        // debug($data['banner'],1);h
+        //debug($meta,1);
 
         // Best deals
         $data['best_deals'] = $this->model_product->best_deals();

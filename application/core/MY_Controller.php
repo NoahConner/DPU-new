@@ -137,6 +137,10 @@ class MY_Controller extends MY_Controller_Admin
                 "viewport" => "width=device-width, initial-scale=1, maximum-scale=1",
                 "google-site-verification" => "z7sxG9YUkpFiseoul4QTq3W3fTtf7WMHzOGSY_dzOXs",
             );
+            
+            $og_data = array(
+                "og:image" => $title,
+            );
             // debug($meta_data,1);
 
 
@@ -445,6 +449,7 @@ class MY_Controller extends MY_Controller_Admin
 
 
         $this->set_meta($meta);
+  
     }
 
     /*

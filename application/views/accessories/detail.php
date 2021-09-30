@@ -13,7 +13,7 @@ $stock = $detail['product_stock'];
     <div class="container">
         <div class="col-md-6 col-sm-6 col-xs-12">
             <div class="pro-big-img">
-                <img alt="img" class="img-responsive" src="<?php echo get_image($detail['product_image_path'], $detail['product_image']);?> " height="" width="">
+                <img alt="img" class="img-responsive" src="<?php echo get_image($detail['product_image_path'], $detail['product_image']);?>">
             </div>
         </div>
         <div class="col-md-6 col-sm-6 col-xs-12">
@@ -93,7 +93,7 @@ $stock = $detail['product_stock'];
                 <h1>QTY</h1>
             </div>
             <div class="transaction-img">
-                <a href="javascript:void(0)"><img alt="" class="img-responsive" src="<?php echo g('images_root');?>img60.png" height="" width=""></a>
+                <a href="javascript:void(0)"><img alt="" class="img-responsive" src="<?php echo g('images_root');?>img60.png"></a>
             </div>
             <div class="clearfix"></div>
             <div class="procart_div">
@@ -161,7 +161,7 @@ $stock = $detail['product_stock'];
                                 foreach ($comments as $key=>$value):?>
                                     <div class="row top-one">
                                         <div class="col-md-2">
-                                            <img class="img img-rounded img-fluid" src="<?php echo g('images_root');?>fan-img.png" height="" width="" alt="img">
+                                            <img class="img img-rounded img-fluid" src="<?php echo g('images_root');?>fan-img.png">
                                             <p class="text-secondary text-center"><?php echo timeago($value['comment_created_on']);?></p>
                                         </div>
                                         <div class="col-md-10">

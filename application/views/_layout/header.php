@@ -126,8 +126,8 @@ else{
     <nav class="navbar navbar-expand-lg">
       <figure class="navbar-brand">
         <a href="<?=g('base_url')?>" title="Design Pros USA">
-          <!-- <img src="<?=Links::img($logo['logo_image_path'],$logo['logo_image'])?>" width="" height="" alt="Design Pros USA"> -->
-          <!-- <img src="<?=Links::img($logo['logo_image_path'],$logo['logo_image'])?>" width="" height="" alt="Design Pros USA"> -->
+          <!--<img src="<?=Links::img($logo['logo_image_path'],$logo['logo_image'])?>" width="" height="" alt="Design Pros USA">-->
+          <!--<img src="<?=Links::img($logo['logo_image_path'],$logo['logo_image'])?>" width="" height="" alt="Design Pros USA">-->
           <img src="<?= g('images_root') ?>1x/logo_usa_50.gif" width="" height="" alt="Design Pros USA" />
           <img src="<?= g('images_root') ?>1x/logo_usa_50.gif" width="" height="" alt="Design Pros USA" />
         </a>  

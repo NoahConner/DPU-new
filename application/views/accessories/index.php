@@ -153,7 +153,7 @@ $products = $product_info['data'];
                         foreach ($products as $key => $value):?>
                             <div class="col-md-3 col-sm-4 wow fadeInUp" data-wow-delay="1.2s">
                                 <div class="proThumb chatBox">
-                                    <a href="<?php echo g('base_url');?>accessories/detail/<?php echo $value['product_slug'];?>"><img alt="img" src="<?php echo get_image($value['product_image_path'], $value['product_image_thumb']);?>" height="" width=""></a>
+                                    <a href="<?php echo g('base_url');?>accessories/detail/<?php echo $value['product_slug'];?>"><img alt="" src="<?php echo get_image($value['product_image_path'], $value['product_image_thumb']);?>"></a>
                                     <div class="content1 chatName">
                                         <a href="<?php echo g('base_url');?>accessories/detail/<?php echo $value['product_slug'];?>" class="proName"><?php echo $value['product_name'];?></a>
                                         <?php

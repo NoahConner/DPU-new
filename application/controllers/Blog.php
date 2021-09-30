@@ -305,6 +305,7 @@ public function save_comment()
         $this->layout_data['title'] = "What is a Minimum Viable Product (MVP)";
         $this->layout_data['meta_data']['keywords'] = '';
         $this->layout_data['meta_data']['description'] = 'From questions to what is an MVP to getting the essential insights and knowledge to build a minimum viable product for your startup. We have all the information right here.';
+        
 
         $this->load_view("mvp-pro", $data);
     }
@@ -315,6 +316,7 @@ public function save_comment()
         $this->layout_data['title'] = "Some Renowned examples of Minimum Valuable Products";
         $this->layout_data['meta_data']['keywords'] = '';
         $this->layout_data['meta_data']['description'] = 'Some of the best Minimum viable Product Examples from the industry that you probably have heard of.';
+        $this->layout_data['og_data']['og:image'] = 'https://designprosusa.com/assets/front_assets/images/mvp_fb.jpg';
 
         $this->load_view("examples-minimal-viable-products", $data);
     }
@@ -339,9 +341,11 @@ public function save_comment()
     }
     public function ionic_vs_react_native(){
         global $config;
+
         $this->layout_data['title'] = "React Native vs Ionic: What is The Best for Startups?";
         $this->layout_data['meta_data']['keywords'] = '';
         $this->layout_data['meta_data']['description'] = 'Both React Native and Ionic come with their own pros and cons, learn the comparison between Ionic vs React native by the industry experts.';
+        $this->layout_data['og_data']['og:image'] = 'https://designprosusa.com/assets/front_assets/images/ionic_fb.jpg';
 
         $this->load_view("ionic-vs-react-native", $data);
     }

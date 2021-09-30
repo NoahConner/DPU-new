@@ -101,7 +101,7 @@
 	</div>
 </section>
 
-<section class="animate slideInUp textDivin p-0 bgGrey pt3 pb-5" style="visibility: visible; animation-name: slideInUp;">
+<section class="animate slideInUp textDivin p-0 bgGrey pt3" style="visibility: visible; animation-name: slideInUp;">
 	<div class="container">
 	<div class="row">
 		<div class="col-md-12 mt2">
@@ -115,7 +115,7 @@
 </section>
 
 
-	<section class="content alter-bg srv-details bgWhite animate fadeInUp ecomm redor WebAppsD pt15">
+	<section class="content alter-bg srv-details bgGrey animate fadeInUp ecomm redor WebAppsD pt15">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">

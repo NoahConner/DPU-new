@@ -292,9 +292,9 @@ class Services extends MY_Controller
     public function graphics_des()
     {
         global $config;
-        $this->layout_data['title'] = "Design Pros USA, the SEO agency with the top SEO services";
+        $this->layout_data['title'] = "The most Affordable Graphic Design Company in the USA";
         $this->layout_data['meta_data']['keywords'] = '';
-        $this->layout_data['meta_data']['description'] = 'Design Pros USA is the best search engine optimization company that offers comprehensive and budget-friendly SEO services for entrepreneurs, businesses, and startups.';
+        $this->layout_data['meta_data']['description'] = 'Are you looking for the top graphic design agency. Look no further! We have a team of the best graphic designers that provide top-notch quality graphic design services to our clients.';
 
         $this->load_view("graphic-design-orignal", $data);
     }

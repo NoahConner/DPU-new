@@ -15,7 +15,7 @@
             <ul class="contact-info">
               <li>
                 <i class="fas fa-mobile-alt"></i>
-              <a href="mailto:<?=g('db.admin.phone')?>"><?=g('db.admin.phone')?></a>
+              <a href="tel:<?=g('db.admin.phone')?>"><?=g('db.admin.phone')?></a>
               </li>
               <li>
                 <i class="fas fa-envelope"></i>

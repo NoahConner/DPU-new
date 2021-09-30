@@ -118,6 +118,12 @@ $my_tools = array(
         ?>
         <meta name="<?= $meta_name ?>" content="<?= $meta_val ?>">
     <? } ?>
+    
+    <? foreach ($og_data AS $og_property => $og_val) { ?>
+        <meta property="<?= $og_property ?>" content="<?= $og_val ?>">
+    <? } ?>
+    <!--<meta property="og:image" content="<?php echo g('images_root')?>app-development.png"/>-->
+    <!--<meta property="og:image" content="<?php echo g('images_root')?>1x/goup.png"/>-->
 
     <!-- Google Fonts -->
     <!--<link href="<?php /*echo l('assets/front_assets/fonts/font.css')*/?>" rel="stylesheet">-->
@@ -316,13 +322,17 @@ s0.parentNode.insertBefore(s1,s0);
 })();
 
 
-setTimeout(()=>{
-    var ifo = document.getElementsByTagName('iframe')[0].contentDocument.body;
-    var btnh = ifo.getElementsByClassName('tawk-button')[0];
-    $('.chat_wrap').on('click',()=>{
-        btnh.click()
+
+    $(document).ready(function(){
+        setTimeout(()=>{
+            var ifo = document.getElementsByTagName('iframe')[0].contentDocument.body;
+            var btnh = ifo.getElementsByClassName('tawk-button')[0];
+            $('.chat_wrap').on('click',()=>{
+                btnh.click()
+            })
+        },3000)
     })
-},3000)
+
 
 </script>
 <!--End of Tawk.to Script-->
@@ -356,8 +366,6 @@ setTimeout(()=>{
     "closes": "17:00"
   } 
 }
-
-
 </script>
 
 
@@ -366,9 +374,6 @@ setTimeout(()=>{
     $exploded = explode('/', $pageURI);
     $pageURI = end($exploded);
 ?>   
-
-
-
 <div class="dCapbilo" style="display: none">
     <div class=" <?php 
     if($pageURI =='android-app-development' || $pageURI =='content-development'){echo 'dParo';}
@@ -380,7 +385,6 @@ setTimeout(()=>{
     <div class=" <?php if($pageURI =='android-app-development'){echo 'bParal';}else if($pageURI =='content-development'){echo 'bParalC';}else if($pageURI =='flutter-app-development'){echo 'bParalD';}?>"></div>
     </div>
 </div>
-
 
 <script>
     document.onreadystatechange = function () {
