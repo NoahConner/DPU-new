@@ -8246,7 +8246,12 @@ font-size:14px;
    margin-right: auto;
    padding: 0 3rem;
  }
-
+.containerCSp{
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 3rem 0 0rem;
+}
 .mt1{
   margin-top:1rem;
 }
@@ -9465,6 +9470,15 @@ html {
 }
 
 @media screen and (max-width: 414px){
+  .content-box {
+    left: 56% !important;
+}
+.slider-nav-wrapper{
+  display:none
+}
+.containerCSp{
+  padding: 0;
+}
   .ecomm .flexBOxC .txt h1:nth-child(2) {
     font-size: 2.8em !important;
   }

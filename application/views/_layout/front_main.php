@@ -65,6 +65,10 @@ $my_tools = array(
         "js" => array("bootstrap-fileupload.js"),
         "css" => array("bootstrap-fileupload.css")
     ),
+    // "swiper" => array(
+    //     "js" => array("js/swiper-bundle.min.js"),
+    //     "css" => array("css/swiper-bundle.min.css")
+    // )
 );
 
 ?>
@@ -107,11 +111,11 @@ $my_tools = array(
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
     
     <!-- Link Swiper's CSS -->
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <!-- <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" /> -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7.0.7/swiper-bundle.min.css" />
     <!-- Swiper JS -->
-    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/swiper@7.0.7/swiper-bundle.min.js"></script>
+    <!-- <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script> -->
 
     <?
     foreach ($meta_data AS $meta_name => $meta_val) {
