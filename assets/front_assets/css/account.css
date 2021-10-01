@@ -246,9 +246,286 @@ section.accountSec {
 
 /* case stydy */
 
+.case-main-banner::after {
+    content: "";
+    display: block;
+    position: absolute;
+    /* bottom: 83px; */
+    width: 101%;
+    /* background: url(../images/new-banners/home-banner-bg.png); */
+    background: url(../images/1x/casebackground-8.png);
+    height: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    z-index: -1;
+    left: -1%;
+    top: 0;
+}
+
+.casebannercstm h2 {
+    font-size: 3.8rem;
+    font-family: gilroybold;
+}
+
+.casebannercstm p {
+    visibility: visible;
+    color: #000;
+    font-size: 14px;
+    font-family: gilroybold;
+}
+
+.first-banner-heading h1 {
+    text-align: center;
+    color: #3A4743;
+    font-family: gilroybold;
+    font-size: 3rem;
+}
+
+.first-banner-para {
+    text-align: center;
+    color: #4D4D4D;
+}
+
+.first-banner-mid {
+    display: flex;
+    justify-content: space-around;
+}
+
+.greengrey-color {
+    color: #3A4743 !important;
+}
+
+.grey-color {
+    color: #4D4D4D !important;
+}
+
+.type {
+    text-align: center;
+}
+
+.type-para p {
+    font-size: 14px;
+    color: #3A4743;
+    font-family: gilroybold;
+    font-weight: 800;
+}
+
+.type span {
+    font-size: 2rem;
+    color: #3A4743;
+    font-family: gilroybold;
+}
+
+.type-para {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    text-align: center;
+    box-shadow: 0px 0px 10px #6565654d;
+    padding: 20px 2px;
+}
+
+.ul-para {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    text-align: center;
+    box-shadow: 0px 0px 10px #6565654d;
+    padding: 31px 2px;
+}
+
+.ul-para p {
+    font-size: 16px;
+    color: #3A4743;
+    font-family: gilroybold;
+    font-weight: 800;
+}
+
+.calender i {
+    font-size: 40px;
+    color: #3A4743;
+}
+
+.calender {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    text-align: center;
+    box-shadow: 0px 0px 10px #6565654d;
+    padding: 25px 10px;
+}
+
+.mt12 {
+    margin-top: 12rem;
+}
+
+.nation-banner::after {
+    content: "";
+    display: block;
+    position: absolute;
+    /* bottom: 83px; */
+    width: 101%;
+    background: url(../images/1x/nationalbannerimg-8.png);
+    height: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    z-index: -1;
+    left: -1%;
+    top: 0;
+}
+
+.nationalbannercstm p {
+    visibility: visible;
+    color: #333333;
+}
+
+.nationalbannercstm h2 {
+    color: #2D2A54;
+}
+
+.nation-second-banner h1 {
+    text-align: center;
+    color: #2D2A54;
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+.nation-banner-para {
+    text-align: center;
+    color: #333333;
+}
+
+.national-type span {
+    text-align: center;
+    font-size: 16px;
+    color: #3A4743;
+    font-weight: 700;
+    padding-top: 2px;
+}
+
+.national-type2 span {
+    text-align: center;
+    font-size: 16px;
+    color: #3A4743;
+    font-weight: 700;
+    padding-top: 2px;
+}
+
+.national-type p {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.national-type2 p {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.national-type {
+    text-align: center;
+    box-shadow: 0px 0px 10px #65656526;
+    padding: 4px 100px;
+    padding-top: 16px;
+    line-height: 0.5;
+    border-radius: 10px;
+}
+
+.national-type2 {
+    text-align: center;
+    box-shadow: 0px 0px 10px #65656526;
+    padding: 4px 20px;
+    line-height: 0.5;
+    margin-top: 0%;
+    color: #3A4743;
+    padding-top: 16px;
+    border-radius: 10px;
+}
+
+.natonal-intro-img {
+    width: 60%;
+    height: 60%;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.national-introduction .cstmclass {
+    text-align: center;
+    margin-top: 7rem;
+}
+
+.national-introduction span {
+    color: #2D2A54;
+    font-weight: 500;
+    font-size: 3rem;
+}
+
+.national-introduction p {
+    text-align: center;
+}
+
+.national-problem p {
+    text-align: center;
+}
+
+.national-problem span {
+    color: #2D2A54;
+    font-weight: 500;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+.national-problem .cstmclass {
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.natinal-EcoImg {
+    width: 90%;
+    height: 70%;
+}
+
+.solution span {
+    color: #2D2A54;
+    font-weight: 500;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
 @media screen and (max-width: 414px) {
     .graphicDes.Comp.WappBannerImage0 .WappBannerimg {
         width: 62% !important;
+    }
+    .case-main-banner {
+        height: 800px !important;
+        margin-top: 1rem;
+    }
+    .forrevers {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .case-banner-main-img {
+        display: block !important;
+    }
+    .for-mobile-padding {
+        padding-top: 0%;
+    }
+    .formobilemargin {
+        margin-top: 2rem !important;
+        padding-top: 50px !important;
+    }
+    .casebannercstm h2 {
+        font-size: 2.5rem;
+    }
+    .national {
+        display: block;
+    }
+    .nation-margin-for-mobile {
+        margin-top: 1.5rem;
     }
 }
 
