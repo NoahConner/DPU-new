@@ -27,7 +27,78 @@
         <!-- Logos Start-->
         <div class="element-item logos">
           <figure>
-            <img class="lazy" src="<?= g('images_root') ?>portfolio/brandlogo/lg1.jpg" data-src="<?= g('images_root') ?>portfolio/brandlogo/aniladhanji-09.jpg" alt="baystate">
+            <img class="lazy" src="<?= g('images_root') ?>portfolio/brandlogo/lg9.png" alt="baystate">
+          </figure>
+          <div class="info-overlay">
+            <a data-fancybox="" href="<?= g('images_root') ?>portfolio/brandlogo/lg9.png">
+              <i class="fa fa-search-plus"></i>
+            </a>
+          </div>
+        </div>
+        <div class="element-item logos">
+          <figure>
+            <img class="lazy" src="<?= g('images_root') ?>portfolio/brandlogo/lg10.png" alt="baystate">
+          </figure>
+          <div class="info-overlay">
+            <a data-fancybox="" href="<?= g('images_root') ?>portfolio/brandlogo/lg10.png">
+              <i class="fa fa-search-plus"></i>
+            </a>
+          </div>
+        </div>
+        <div class="element-item logos">
+          <figure>
+            <img class="lazy" src="<?= g('images_root') ?>portfolio/brandlogo/lg11.png" alt="baystate">
+          </figure>
+          <div class="info-overlay">
+            <a data-fancybox="" href="<?= g('images_root') ?>portfolio/brandlogo/lg11.png">
+              <i class="fa fa-search-plus"></i>
+            </a>
+          </div>
+        </div>
+        <div class="element-item logos">
+          <figure>
+            <img class="lazy" src="<?= g('images_root') ?>portfolio/brandlogo/lg12.png" alt="baystate">
+          </figure>
+          <div class="info-overlay">
+            <a data-fancybox="" href="<?= g('images_root') ?>portfolio/brandlogo/lg12.png">
+              <i class="fa fa-search-plus"></i>
+            </a>
+          </div>
+        </div>
+        <div class="element-item logos">
+          <figure>
+            <img class="lazy" src="<?= g('images_root') ?>portfolio/brandlogo/lg13.png" alt="baystate">
+          </figure>
+          <div class="info-overlay">
+            <a data-fancybox="" href="<?= g('images_root') ?>portfolio/brandlogo/lg13.png">
+              <i class="fa fa-search-plus"></i>
+            </a>
+          </div>
+        </div>
+        <div class="element-item logos">
+          <figure>
+            <img class="lazy" src="<?= g('images_root') ?>portfolio/brandlogo/lg14.png" alt="baystate">
+          </figure>
+          <div class="info-overlay">
+            <a data-fancybox="" href="<?= g('images_root') ?>portfolio/brandlogo/lg14.png">
+              <i class="fa fa-search-plus"></i>
+            </a>
+          </div>
+        </div>
+        <div class="element-item logos">
+          <figure>
+            <img class="lazy" src="<?= g('images_root') ?>portfolio/brandlogo/lg15.png" alt="baystate">
+          </figure>
+          <div class="info-overlay">
+            <a data-fancybox="" href="<?= g('images_root') ?>portfolio/brandlogo/lg15.png">
+              <i class="fa fa-search-plus"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="element-item logos">
+          <figure>
+            <img class="lazy" src="<?= g('images_root') ?>portfolio/brandlogo/lg1.jpg" alt="baystate">
           </figure>
           <div class="info-overlay">
             <a data-fancybox="" href="<?= g('images_root') ?>portfolio/brandlogo/lg1.jpg">
@@ -37,7 +108,7 @@
         </div>
         <div class="element-item logos">
           <figure>
-            <img class="lazy" src="<?= g('images_root') ?>portfolio/brandlogo/lg2.jpg" data-src="<?= g('images_root') ?>portfolio/brandlogo/aniladhanji-09.jpg" alt="baystate">
+            <img class="lazy" src="<?= g('images_root') ?>portfolio/brandlogo/lg2.jpg" alt="baystate">
           </figure>
           <div class="info-overlay">
             <a data-fancybox="" href="<?= g('images_root') ?>portfolio/brandlogo/lg2.jpg">
@@ -47,7 +118,7 @@
         </div>
         <div class="element-item logos">
           <figure>
-            <img class="lazy" src="<?= g('images_root') ?>portfolio/brandlogo/lg3.jpg" data-src="<?= g('images_root') ?>portfolio/brandlogo/aniladhanji-09.jpg" alt="baystate">
+            <img class="lazy" src="<?= g('images_root') ?>portfolio/brandlogo/lg3.jpg" alt="baystate">
           </figure>
           <div class="info-overlay">
             <a data-fancybox="" href="<?= g('images_root') ?>portfolio/brandlogo/lg3.jpg">
@@ -57,7 +128,7 @@
         </div>
         <div class="element-item logos">
           <figure>
-            <img class="lazy" src="<?= g('images_root') ?>portfolio/brandlogo/lg4.jpg" data-src="<?= g('images_root') ?>portfolio/brandlogo/aniladhanji-09.jpg" alt="baystate">
+            <img class="lazy" src="<?= g('images_root') ?>portfolio/brandlogo/lg4.jpg" alt="baystate">
           </figure>
           <div class="info-overlay">
             <a data-fancybox="" href="<?= g('images_root') ?>portfolio/brandlogo/lg4.jpg">
@@ -67,7 +138,7 @@
         </div>
         <div class="element-item logos">
           <figure>
-            <img class="lazy" src="<?= g('images_root') ?>portfolio/brandlogo/lg6.jpg" data-src="<?= g('images_root') ?>portfolio/brandlogo/aniladhanji-09.jpg" alt="baystate">
+            <img class="lazy" src="<?= g('images_root') ?>portfolio/brandlogo/lg6.jpg" alt="baystate">
           </figure>
           <div class="info-overlay">
             <a data-fancybox="" href="<?= g('images_root') ?>portfolio/brandlogo/lg6.jpg">
@@ -77,7 +148,7 @@
         </div>
         <div class="element-item logos">
           <figure>
-            <img class="lazy" src="<?= g('images_root') ?>portfolio/brandlogo/lg7.jpg" data-src="<?= g('images_root') ?>portfolio/brandlogo/aniladhanji-09.jpg" alt="baystate">
+            <img class="lazy" src="<?= g('images_root') ?>portfolio/brandlogo/lg7.jpg" alt="baystate">
           </figure>
           <div class="info-overlay">
             <a data-fancybox="" href="<?= g('images_root') ?>portfolio/brandlogo/lg7.jpg">
@@ -87,7 +158,7 @@
         </div>
         <div class="element-item logos">
           <figure>
-            <img class="lazy" src="<?= g('images_root') ?>portfolio/brandlogo/lg8.jpg" data-src="<?= g('images_root') ?>portfolio/brandlogo/aniladhanji-09.jpg" alt="baystate">
+            <img class="lazy" src="<?= g('images_root') ?>portfolio/brandlogo/lg8.jpg" alt="baystate">
           </figure>
           <div class="info-overlay">
             <a data-fancybox="" href="<?= g('images_root') ?>portfolio/brandlogo/lg8.jpg">
@@ -98,7 +169,7 @@
 
         <div class="element-item logos">
           <figure>
-            <img class="lazy" src="<?= g('images_root') ?>portfolio/brandlogo/aniladhanji-09.jpg" data-src="<?= g('images_root') ?>portfolio/brandlogo/aniladhanji-09.jpg" alt="baystate">
+            <img class="lazy" src="<?= g('images_root') ?>portfolio/brandlogo/aniladhanji-09.jpg" alt="baystate">
           </figure>
           <div class="info-overlay">
             <a data-fancybox="" href="<?= g('images_root') ?>portfolio/brandlogo/aniladhanji-09.jpg">
@@ -831,6 +902,107 @@
 
 
         <!-- Web Design Start-->
+        <div class="element-item  web-design-dev">
+          <figure>
+            <img src="<?= g('images_root') ?>portfolio/web-development/cs28.jpg" alt="hfs">
+          </figure>
+          <div class="info-overlay">
+            <a data-fancybox="" href="<?= g('images_root') ?>portfolio/web-development/cs28p.jpg">
+              <i class="fa fa-search-plus"></i>
+            </a>
+          </div>
+        </div>
+        <div class="element-item  web-design-dev">
+          <figure>
+            <img src="<?= g('images_root') ?>portfolio/web-development/cs29.jpg" alt="hfs">
+          </figure>
+          <div class="info-overlay">
+            <a data-fancybox="" href="<?= g('images_root') ?>portfolio/web-development/cs29p.jpg">
+              <i class="fa fa-search-plus"></i>
+            </a>
+          </div>
+        </div>
+        <div class="element-item  web-design-dev">
+          <figure>
+            <img src="<?= g('images_root') ?>portfolio/web-development/cs30.jpg" alt="hfs">
+          </figure>
+          <div class="info-overlay">
+            <a data-fancybox="" href="<?= g('images_root') ?>portfolio/web-development/cs30p.jpg">
+              <i class="fa fa-search-plus"></i>
+            </a>
+          </div>
+        </div>
+        <div class="element-item  web-design-dev">
+          <figure>
+            <img src="<?= g('images_root') ?>portfolio/web-development/cs31.jpg" alt="hfs">
+          </figure>
+          <div class="info-overlay">
+            <a data-fancybox="" href="<?= g('images_root') ?>portfolio/web-development/cs31p.jpg">
+              <i class="fa fa-search-plus"></i>
+            </a>
+          </div>
+        </div>
+        <div class="element-item  web-design-dev">
+          <figure>
+            <img src="<?= g('images_root') ?>portfolio/web-development/cs32.jpg" alt="hfs">
+          </figure>
+          <div class="info-overlay">
+            <a data-fancybox="" href="<?= g('images_root') ?>portfolio/web-development/cs32p.jpg">
+              <i class="fa fa-search-plus"></i>
+            </a>
+          </div>
+        </div>
+        <div class="element-item  web-design-dev">
+          <figure>
+            <img src="<?= g('images_root') ?>portfolio/web-development/cs33.jpg" alt="hfs">
+          </figure>
+          <div class="info-overlay">
+            <a data-fancybox="" href="<?= g('images_root') ?>portfolio/web-development/cs33p.jpg">
+              <i class="fa fa-search-plus"></i>
+            </a>
+          </div>
+        </div>
+        <div class="element-item  web-design-dev">
+          <figure>
+            <img src="<?= g('images_root') ?>portfolio/web-development/cs34.jpg" alt="hfs">
+          </figure>
+          <div class="info-overlay">
+            <a data-fancybox="" href="<?= g('images_root') ?>portfolio/web-development/cs34p.jpg">
+              <i class="fa fa-search-plus"></i>
+            </a>
+          </div>
+        </div>
+        <div class="element-item  web-design-dev">
+          <figure>
+            <img src="<?= g('images_root') ?>portfolio/web-development/cs35.jpg" alt="hfs">
+          </figure>
+          <div class="info-overlay">
+            <a data-fancybox="" href="<?= g('images_root') ?>portfolio/web-development/cs35p.jpg">
+              <i class="fa fa-search-plus"></i>
+            </a>
+          </div>
+        </div>
+        <div class="element-item  web-design-dev">
+          <figure>
+            <img src="<?= g('images_root') ?>portfolio/web-development/cs36.jpg" alt="hfs">
+          </figure>
+          <div class="info-overlay">
+            <a data-fancybox="" href="<?= g('images_root') ?>portfolio/web-development/cs36p.jpg">
+              <i class="fa fa-search-plus"></i>
+            </a>
+          </div>
+        </div>
+        <div class="element-item  web-design-dev">
+          <figure>
+            <img src="<?= g('images_root') ?>portfolio/web-development/cs37.jpg" alt="hfs">
+          </figure>
+          <div class="info-overlay">
+            <a data-fancybox="" href="<?= g('images_root') ?>portfolio/web-development/cs37p.jpg">
+              <i class="fa fa-search-plus"></i>
+            </a>
+          </div>
+        </div>
+
         <div class="element-item  web-design-dev">
           <figure>
             <img src="<?= g('images_root') ?>portfolio/web-development/cs23.jpg" alt="hfs">
