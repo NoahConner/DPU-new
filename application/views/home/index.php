@@ -456,9 +456,9 @@
     }
 
     .tag-box {
-      right: 90%;
-      top: 50%;
-    }
+    right: 115%;
+    top: 50%;
+}
 
     .team-info-item .heading {
       font-size: 1.5rem;
