@@ -109,3 +109,33 @@
         transform: rotate(-360deg);
     }
 }
+
+@-webkit-keyframes team-info-item {
+from {
+  opacity: 0;
+  -webkit-transform: translate3d(0, 50px, 0);
+}
+
+to {
+  opacity: 1;
+  -webkit-transform: translate3d(0, 0, 0);
+}
+}
+
+
+.team-info-item.active .heading, .team-info-item.active .content{
+-webkit-animation-name: team-info-item;
+animation-name: team-info-item;
+-webkit-animation-duration: 1s;
+animation-duration: 1s;
+-webkit-animation-fill-mode: both;
+animation-fill-mode: both;
+-webkit-animation-delay: 0s;
+
+}
+.team-info-item.active .content p {
+font-weight: 300;
+}
+.team-info-item.active .content {
+-webkit-animation-delay: .2s;
+}
